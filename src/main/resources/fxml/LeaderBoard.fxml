@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #90EE90;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="609.0" prefWidth="800.0">
+         <children>
+            <Text layoutX="246.0" layoutY="88.0" text="Leaderboard">
+               <font>
+                  <Font name="Lucida Bright Italic" size="50.0" />
+               </font>
+               <effect>
+                  <DropShadow height="10.0" radius="4.5" spread="0.8" width="10.0">
+                     <color>
+                        <Color red="0.8842105269432068" green="0.8842105269432068" blue="0.8842105269432068" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Text>
+            <Text layoutX="276.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return to main menu with [ESC]" wrappingWidth="244.8077392578125">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="topPlayers1" layoutX="247.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Top 10 players" textAlignment="CENTER" wrappingWidth="307.0">
+               <font>
+                  <Font name="Arial Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="248.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" underline="true" wrappingWidth="151.60003662109375">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Moves" textAlignment="CENTER" underline="true" wrappingWidth="151.60003662109375">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Text>
+            <Text fx:id="topPlayers" layoutX="247.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="151.60003662109375">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Text>
+            <Text fx:id="topPlayerMoves" layoutX="399.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="151.60003662109375">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</VBox>

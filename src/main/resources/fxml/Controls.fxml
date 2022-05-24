@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #90EE90;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane VBox.vgrow="ALWAYS">
+         <children>
+            <Text layoutX="278.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return to main menu with [ESC]" textAlignment="RIGHT" wrappingWidth="244.65270614624023">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="300.0" layoutY="152.0" text="Controls">
+               <font>
+                  <Font name="Lucida Bright Italic" size="50.0" />
+               </font>
+               <effect>
+                  <DropShadow height="10.0" radius="4.5" spread="0.8" width="10.0">
+                     <color>
+                        <Color red="0.8842105269432068" green="0.8842105269432068" blue="0.8842105269432068" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Text>
+            <Text fx:id="test" fill="#1b0075" layoutX="69.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Made by Sqookie - Faculty Of Informatics, University of Debrecen" textAlignment="CENTER" wrappingWidth="662.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <GridPane layoutX="258.0" layoutY="212.0" prefHeight="143.0" prefWidth="284.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="[W] [↑]" textAlignment="RIGHT" wrappingWidth="85.0">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Move Up" wrappingWidth="79.85271835327148" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="[A] [←]" textAlignment="RIGHT" wrappingWidth="85.0" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Move Left" wrappingWidth="79.85271835327148" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="[S] [↓]" textAlignment="RIGHT" wrappingWidth="85.0" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Move Down" wrappingWidth="91.05273056030273" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="10.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="[D] [→]" textAlignment="RIGHT" wrappingWidth="85.0" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="110.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move Right" wrappingWidth="87.85271835327148" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </GridPane>
+         </children></Pane>
+   </children>
+</VBox>
